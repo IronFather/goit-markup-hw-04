@@ -1,0 +1,1 @@
+my self-development is continuing. i write this readme as a diary of my learning. thats fun) but i really want to succed and im going to my dream step by step. this is third step) deadline 21.06.2022. lets go make my future!
