@@ -295,7 +295,6 @@ color: var(--accent-cl);
     overflow: hidden;
 }
 
-/* fixed 8 margin-bottom in cards of portfolio */
 .portfolio-subtitle {
     font-weight: 700;
     font-size: 18px;
@@ -384,7 +383,6 @@ ul {
     margin-right: 50px;
 }
 
-/* fixed 9 padding from header-list-item to header-link*/
 .header-link {
     display: block;
     padding-top: 32px;
@@ -492,7 +490,6 @@ ul {
     justify-content: center;
 }
 
-/* fixed 6 padding to margin */
 .team-txt {
     display: flex;
     margin-bottom: 30px;
@@ -506,8 +503,7 @@ ul {
 }
 
 /* footer flexbox*/
-/* fixed 2 padding-top from logo to footer */
-/* fixed 3 padding-bottom from address to footer */
+
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -522,20 +518,16 @@ ul {
     display: inline-block;
 }
 
-/* fixed 7 margin-bottom in address */
 .address-list-items:not(:last-child) {
     margin-bottom: 9px;
 }
 
-/* fixed 10 changed list-style in address */
 .address-list-items {
     list-style: none;
 }
 
 /* PORTFOLIO FLEXBOX */
-
 /* filters flexbox */
-/* fixed 4 margin-bottom from portfolio-filters-item to portfolio-filters */
 
 .portfolio-filters {
     justify-content: center;
@@ -557,7 +549,6 @@ ul {
         --indent: 30px;
     }
 
-/* fixed 5 made changes to cards of portfolio */
 .portfolio-service {
     padding: 20px 24px;
     border-left: 1px solid var(--border-card-cl);
