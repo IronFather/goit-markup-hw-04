@@ -204,7 +204,6 @@ color: var(--accent-cl);
 .hero-btn {
     background: var(--accent-bg-cl);
     color: var(--add_white_cl);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -223,6 +222,7 @@ color: var(--accent-cl);
 .hero-btn:focus {
     background: var(--rare-bg-cl);
     color: var(--second-cl);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 /* FEATURES */
@@ -280,10 +280,6 @@ color: var(--accent-cl);
 
     display: flex;
     justify-content: center;
-}
-
-.service {
-    padding-top: 0;
 }
 
 .cervice-list-container {
@@ -428,6 +424,7 @@ color: var(--accent-cl);
 .filters-btn:focus {
     background: var(--accent-bg-cl);
     color: var(--add_white_cl);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title {
@@ -536,4 +533,9 @@ ul {
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
+}
+
+/* changed for correct padding of service */
+.service {
+    padding-top: 0;
 }
