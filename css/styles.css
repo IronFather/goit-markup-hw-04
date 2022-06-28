@@ -29,6 +29,7 @@
     --accent-bg-cl: #2196F3;
     --border-card-cl: #EEEEEE;
     --border-header-cl: #ECECEC;
+    --hero-bg-cl: C4C4C4;
     
     /* others */
     --items: 3;
@@ -159,16 +160,29 @@ color: var(--accent-cl);
 
 .header {
     border-bottom: 1px solid var(--border-header-cl);
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* HERO*/
 .hero { 
-    background: var(--second-bg-cl);
-
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    /* background-image: url(../images/hero/img-hero.jpg); */
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: var(--second-bg-cl);
+    background-image: 
+    linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/hero/img-hero.jpg),
+    linear-gradient(to right, #C4C4C4, #C4C4C4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
 }
 
 .hero-title {
@@ -374,6 +388,9 @@ color: var(--accent-cl);
 
     padding-top: 60px;
     padding-bottom: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1600px;
 }
 
 /* footer flexbox*/
@@ -516,4 +533,7 @@ ul {
 .section {
     padding-top: 94px;
     padding-bottom: 94px;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
 }
