@@ -268,6 +268,17 @@ color: var(--accent-cl);
     flex-basis: 270px;
 }
 
+.features-icons {
+    display: flex;
+    width: 270px;
+    height: 120px;
+    background: var(--rare-bg-cl);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
 /* SERVICE */
 
 .service-title {
@@ -347,6 +358,11 @@ color: var(--accent-cl);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
+
+/* team-svg
+.social-media-link {
+    display: block;
+} */
 
 /* FOOTER*/
 .footer-logo {
