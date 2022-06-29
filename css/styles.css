@@ -29,6 +29,7 @@
     --accent-bg-cl: #2196F3;
     --border-card-cl: #EEEEEE;
     --border-header-cl: #ECECEC;
+    --border-clients-cl: AFB1B8;
     --hero-bg-cl: C4C4C4;
     
     /* others */
@@ -339,7 +340,7 @@ color: var(--accent-cl);
     margin-bottom: 0;
 
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 16px;
     justify-content: center;
 }
 
@@ -362,6 +363,68 @@ color: var(--accent-cl);
 .social-media-link {
 text-decoration: none;
 } 
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.team-smi-link { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 44px;
+    width: 44px;
+    background-color: var(--main-bg-cl);
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.team-smi-link:hover .team-smi-icon,
+.team-smi-link:focus .team-smi-icon {
+    fill: var(--accent-bg-cl);
+}
+
+/* CLIENTS */
+.clients {
+    outline: 1px solid green;
+    background: var(--main-bg-cl);
+}
+
+.container {
+    outline: 1px solid red;
+}
+
+    .clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    color: var(--second-cl);
+    margin-top: 0;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    }
+    
+/* .clients-list {
+    display: flex;
+}
+
+.clients-link {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid AFB1B8;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+} */
+
 
 /* FOOTER*/
 .footer-logo {
