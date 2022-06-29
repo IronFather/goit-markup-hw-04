@@ -359,10 +359,9 @@ color: var(--accent-cl);
     border-radius: 0px 0px 4px 4px;
 }
 
-/* team-svg
 .social-media-link {
-    display: block;
-} */
+text-decoration: none;
+} 
 
 /* FOOTER*/
 .footer-logo {
