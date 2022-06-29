@@ -123,8 +123,8 @@ color: var(--second-cl);
     list-style: none;
 }
 
-.header-contacts a:hover,
-.header-contacts a:focus {
+.header-address-item .header-contacts-item:hover,
+.header-address-item .header-contacts-item:focus {
 color: var(--accent-cl);
 }
 
@@ -155,7 +155,7 @@ color: var(--accent-cl);
     margin-left: auto;
 }
 
-.header-contacts-tel {
+.icon-smartphone {
     margin-left: 50px;
 }
 
@@ -164,6 +164,25 @@ color: var(--accent-cl);
     max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.header-address-item {
+    display: flex;
+    align-items: center;
+}
+
+.header-contacts-icon {
+    margin-right: 10px;
+}
+
+.header-contacts-email:hover .icon-envelope,
+.header-contacts-email:focus .icon-envelope {
+    fill: var(--accent-cl);
+}
+
+.head-smartphone > .header-contacts-tel:hover .icon-smartphone,
+.head-smartphone > .header-contacts-tel:focus .icon-smartphone {
+    fill: var(--accent-cl);
 }
 
 /* HERO*/
@@ -386,7 +405,7 @@ text-decoration: none;
 
 .team-smi-link:hover .team-smi-icon,
 .team-smi-link:focus .team-smi-icon {
-    fill: var(--accent-bg-cl);
+    fill: var(--accent-cl);
 }
 
 /* CLIENTS */
