@@ -123,10 +123,21 @@ color: var(--second-cl);
     list-style: none;
 }
 
-.header-address-item .header-contacts-item:hover,
-.header-address-item .header-contacts-item:focus {
-color: var(--accent-cl);
+.header-contacts-item:hover .icon-envelope,
+.header-contacts-item:focus .icon-envelope {
+    fill: var(--accent-cl);
 }
+
+.header-contacts-item:hover,
+.header-contacts-item:focus {
+    color: var(--accent-cl);
+}
+
+.header-contacts-item {
+    display: flex;
+    align-items: center;
+}
+
 
 .list {
     display: flex;
