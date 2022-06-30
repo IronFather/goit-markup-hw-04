@@ -29,7 +29,7 @@
     --accent-bg-cl: #2196F3;
     --border-card-cl: #EEEEEE;
     --border-header-cl: #ECECEC;
-    --border-clients-cl: AFB1B8;
+    --border-clients-cl: #AFB1B8;
     --hero-bg-cl: C4C4C4;
     
     /* others */
@@ -398,14 +398,24 @@ text-decoration: none;
     justify-content: center;
     height: 44px;
     width: 44px;
+    fill: var(--border-clients-cl);
     background-color: var(--main-bg-cl);
     border-radius: 50%;
-    margin-bottom: 30px;
 }
 
 .team-smi-link:hover .team-smi-icon,
 .team-smi-link:focus .team-smi-icon {
-    fill: var(--accent-cl);
+    fill: var(--add_white_cl);
+    background-color: var(--accent-bg-cl);
+} 
+
+.team-smi-link:hover,
+.team-smi-link:focus {
+    background-color: var(--accent-bg-cl);
+}
+
+.social-media-item {
+    margin-bottom: 30px;
 }
 
 /* CLIENTS */
@@ -429,20 +439,20 @@ text-decoration: none;
     justify-content: center;
     }
     
-/* .clients-list {
+.clients-list {
     display: flex;
 }
 
-.clients-link {
+.clients-list {
     display: flex;
     width: 170px;
     height: 92px;
-    border: 1px solid AFB1B8;
+    border: 5px solid AFB1B8;
     border-radius: 4px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-} */
+} 
 
 
 /* FOOTER*/
