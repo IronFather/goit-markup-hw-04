@@ -114,12 +114,19 @@ color: var(--second-cl);
 }
 
 .header-contacts a {
-    color: var(--main-cl); 
+    color: var(--main-cl);
     font-weight: 500;
     line-height: 1.14px;
     letter-spacing: 0.02em;
     text-decoration: none;
     list-style: none;
+}
+
+/* fixed 1 size of icons in header by changes in sprite */
+/* fixed color of icons in header */
+
+.header-contacts-icon {
+    fill: var(--main-cl);
 }
 
 .header-contacts-item:hover .icon-envelope,
