@@ -178,7 +178,6 @@ color: var(--second-cl);
 
 .header {
     border-bottom: 1px solid var(--border-header-cl);
-    max-width: 1600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -522,7 +521,6 @@ text-decoration: none;
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1600px;
 }
 
 /* footer flexbox*/
@@ -539,16 +537,16 @@ text-decoration: none;
     list-style: none;
 }
  /* footer smi */
+ /* fixed 9 added baseline to footer */
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
+/* fixed 7,8 deleted over */
 .footer-smi-box {
     margin-left: 70px;
-    align-items: baseline;
     width: 206px;
-    height: 80px;
-    margin-top: 6px;
 }
 
 .footer-smi-title {
