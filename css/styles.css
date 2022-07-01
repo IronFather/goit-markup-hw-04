@@ -435,15 +435,14 @@ text-decoration: none;
 
 /* CLIENTS */
 .clients {
-    background: var(--main-bg-cl);
+    background-color: var(--main-bg-cl);
 }
-
+/* fixed 4 deleted margin */
     .clients-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     color: var(--second-cl);
-    margin-top: 0;
     margin-bottom: 50px;
     display: flex;
     justify-content: center;
@@ -468,7 +467,8 @@ text-decoration: none;
     fill: var(--border-clients-cl);
 }
 
-.clients-list {
+/* fixed 5 corrected formula */
+.clients-list-container {
     --items: 6;
     --indent: 30px;
 }
