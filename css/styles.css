@@ -400,9 +400,11 @@ color: var(--second-cl);
 text-decoration: none;
 } 
 
+/* fixed 2 changed margin-bottom from items to list */
 .social-media {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .social-media-item:not(:last-child) {
@@ -429,10 +431,6 @@ text-decoration: none;
 .team-smi-link:hover,
 .team-smi-link:focus {
     background-color: var(--accent-bg-cl);
-}
-
-.social-media-item {
-    margin-bottom: 30px;
 }
 
 /* CLIENTS */
